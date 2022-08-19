@@ -11,7 +11,6 @@ a = -9 b = -3 -> max = -3
 // Решение:
 
 Console.WriteLine("Программа, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.");
-
 int num1;
 int num2;
 
@@ -135,15 +134,18 @@ Console.WriteLine(num1 + " ->" + " Нет");
 
 // Решение:
 
-int N;
-N = 1;
+Console.WriteLine("Программа, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.");
+int numA = 1;
+Console.Write("Введите число (N):");
+int numN = Convert.ToInt32(Console.ReadLine());
 
-while (N<8)
+while (numA < numN)
 {
-   N=N+1;
+   numA = numA + 1;
  
-if (N%2==0)            
+if (numA%2 == 0)            
 {
-   Console.Write(N+";"+"");
+   Console.Write(numA + ";");
 }
 }
+
