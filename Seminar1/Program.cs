@@ -137,7 +137,8 @@ Console.WriteLine(num1 + " ->" + " Нет");
 Console.WriteLine("Программа, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.");
 int numA = 1;
 Console.Write("Введите число (N):");
-int numN = Convert.ToInt32(Console.ReadLine());
+int numN;
+numN = Convert.ToInt32(Console.ReadLine());
 
 while (numA < numN)
 {
