@@ -5,5 +5,24 @@
 a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
+
+Данную задачу можно решить в нескольких вариантах:
+1. закрепить значения за A;B согласно условия.
+2. A;B сделать переменными с возможностью введения чисел.
 */
 
+// В программе предложен первый вариант решения:
+
+int numA = -9;
+int numB = -3;
+
+if (numA > numB)
+{
+    Console.WriteLine("max=" + numA);
+    Console.WriteLine("min=" + numB);
+}
+else
+{
+    Console.WriteLine("max=" + numB);
+    Console.WriteLine("min=" + numA);
+}
