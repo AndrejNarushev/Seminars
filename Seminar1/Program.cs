@@ -78,3 +78,50 @@ Console.WriteLine("max = " + max);
 
 
 
+/* Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+4 -> да
+-3 -> нет
+7 -> нет
+*/
+
+// Решение:
+
+Console.WriteLine("Программа, которая на вход принимает число и выдаёт, является ли число чётным");
+int num1;
+int num2;
+int num3;
+
+Console.Write("Введите первое число: ");
+num1 = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите второе число: ");
+num2 = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите третье число: ");
+num3 = Convert.ToInt32(Console.ReadLine());
+
+if ((num1 % 2) == 0)
+{
+ Console.WriteLine(num1 + " ->" + " Да");
+}
+else
+{
+Console.WriteLine(num1 + " ->" + " Нет");
+}
+   if ((num2 % 2) == 0)
+    {
+    Console.WriteLine(num2 + " ->" + " Да");
+    }
+    else
+   {
+    Console.WriteLine(num2 + " ->" + " Нет");
+   }
+      if ((num3 % 2) == 0)
+      {
+       Console.WriteLine(num3 + " ->" + " Да");
+      }
+      else
+      {
+       Console.WriteLine(num3 + " ->" + " Нет");
+      }
