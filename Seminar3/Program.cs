@@ -83,12 +83,13 @@ Console.WriteLine($"Расстояние между точками =  {DataF}");
 */
 
 // Решение:
-
 /*
+
 Console.WriteLine ("Программа, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.");
 
 Console.Write("Введите число N:");
 int num = Convert.ToInt32(Console.ReadLine());
+void Cub (){
 if (num>=1){
 for (int i = 1; i <= num; i++)
 {
@@ -99,8 +100,14 @@ for (int i = 1; i <= num; i++)
 else{
     Console.WriteLine("Введеное число не соответствует условиям задачи!");
 }
+}
+
+Cub();
 
 */
+
+
+
 
 
 	
