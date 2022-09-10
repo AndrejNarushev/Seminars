@@ -13,7 +13,7 @@ m = 3, n = 4.
 // Решение
        
 
-/*
+
 
 Console.WriteLine("Программа выдаст массив размером MxN заполненный случайными вещественными числами.");
 Console.Write("Введите кол-во строк (значение M):");
@@ -23,30 +23,20 @@ int n= Convert.ToInt32(Console.ReadLine());
 
 double[,] massiv = new double [m,n]; 
 
-void NewMassiv(double[,] x)
-{
-    for (int i = 0; i < x.GetLength(0); i++)
-    {
-        for (int j = 0; j < x.GetLength(1); j++)
-        {
+void NewMassiv(double[,] x){
+    for (int i = 0; i < x.GetLength(0); i++){
+        for (int j = 0; j < x.GetLength(1); j++){
             x[i,j] = Convert.ToDouble(new Random().Next(-100, 100))/10;
         }
-    }
+    }       
 }
-
 void PrintMassiv(double[,] y)
 {
-    for (int i = 0; i < y.GetLength(0); i++) 
-    {
-        for (int j = 0; j < y.GetLength(1); j++)  
-        {
+    for (int i = 0; i < y.GetLength(0); i++){
+        for (int j = 0; j < y.GetLength(1); j++){
             Console.Write($"{y[i, j]} ");
             if (j < y.GetLength(1)-1)
-            {
-                Console.Write(" ; ");
-            }
-           
-        }
+                Console.Write(" ; ");}
         Console.WriteLine("");
     }
 }
@@ -54,7 +44,7 @@ void PrintMassiv(double[,] y)
 NewMassiv(massiv);
 PrintMassiv(massiv);
 
-*/
+
 
 
 
